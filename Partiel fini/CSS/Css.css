@@ -1,0 +1,278 @@
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 5px 200px;
+    border: 2px solid #9c002c
+}
+body {
+    background: radial-gradient(at 50% 100%, rgb(255, 255, 255) 40%, #606060 80%);
+    height: 1500px;
+
+}
+.navbar {
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+}
+
+.p {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.liens {
+    display: inline;
+
+}
+
+.bout {
+    height: 30px;
+    width: 100px;
+    margin: 10px 10px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9c002c;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.boutD {
+    display: none;
+    height: 30px;
+    width: 100px;
+    margin: 10px 10px;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    background-color: #9c002c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    padding: 75px 200px;
+    display: block;
+}
+
+.imagecouv {
+    height: 300px;
+    width: 100%;
+}
+
+.contentg {
+    float: left;
+    width: 500px;
+
+}
+
+
+.contentd {
+    display: flex;
+
+
+}
+
+.bouton {
+    background-color: #9c002c;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form {
+    width: 400px;
+    padding: 1em;
+    padding-bottom: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin: 75px auto;
+    background-color: rgb(31, 0, 0);
+    
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.coMe {
+    text-align: center;
+    color: aliceblue;
+}
+
+.email {
+    width: 375px;
+}
+
+.Sujet {
+    width: 375px;
+    height: 125px;
+}
+
+.envoyer {
+    float: right;
+    margin: 0px;
+}
+
+.Galerie {
+    width: 1000px;
+    padding-bottom: 2em;
+    margin: 75px auto;
+}
+
+.contentG {
+    padding-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titre {
+    width: 100px;
+    padding-right: 125px;
+}
+
+.text {
+    width: 220px;
+    padding-right: 10px;
+    margin: 0px;
+    vertical-align: text-top;
+}
+
+.imageGal {
+    flex: 1;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo {
+        margin: 5px 0px
+    }
+    body{
+        height: 2500px;
+    }
+
+    .liens {
+
+        border: 5px solid rgb(177, 177, 177);
+        border-top: 0px;
+        border-right: 0px;
+        margin-top: 0px;
+        width: 45%;
+        height: 10px;
+        opacity: 0%;
+        float: right;
+        background-color: white;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+    }
+
+    .bout {
+        display: inline;
+        vertical-align: middle;
+        height: 10%;
+
+    }
+
+    .boutD {
+        display: block;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        font-size: 25px
+    }
+
+    .liens:hover {
+        height: 300px;
+        opacity: 100%;
+
+    }
+
+    .content {
+        padding: 0px;
+    }
+
+    .contentd {
+        width: 100%
+    }
+
+    .contentg {
+        width: 100%;
+    }
+
+    .contentg a {
+        margin-left: 25%;
+    }
+
+    .imageText {
+        width: 100%;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .Sujet {
+        width: 100%;
+    }
+
+    .nom {
+        width: 45%;
+    }
+
+    label {
+        width: 49%;
+    }
+
+    input {
+        width: 46%;
+    }
+
+    .envoyer {
+        float: none;
+        margin-left: 39%;
+    }
+
+    .Galerie {
+        width: 100%;
+    }
+
+    .Gtitre {
+        margin-left: 33%;
+    }
+
+    .imageGal {
+        width: 100%;
+    }
+
+    .imageText {
+        width: 100%;
+    }
+
+
+}
